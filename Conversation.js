@@ -7,6 +7,7 @@ window.dialogData = [
     "speaker": "Human",
     "text": "<p>This section addresses the concern that even if a model behaves correctly, we might not understand the reasoning behind its decisions. Without interpretability, it’s difficult to know whether the model is aligned for the right reasons or just coincidentally producing acceptable outputs.</p>"
   },
+  
   {
     "speaker": "Assistant",
     "text": "<p>Exactly — you’re pointing to the difference between <em>behavioral correctness</em> and <em>understanding internal reasoning</em>. A model can pass many tests and still rely on fragile or misleading internal patterns.</p><p>The system card emphasizes this because lack of transparency makes it harder to detect hidden risks, especially as models scale. Let me ask you this: why might relying only on output-based evaluations be dangerous in the long term?</p>"
